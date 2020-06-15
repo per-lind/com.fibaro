@@ -411,19 +411,18 @@
 		"collapsed": false,
 		"children": [
 			{
-				"$extends": "reportInterval",
-				"$id": "66",
-				"zwave": {
-					"index": 66,
-					"size": 2,
-					"signed": false
-				},
-				"attr": {
-					"min": 0,
-					"max": 255
-				},
-				"value": 200
-			},
+        "$extends": "reportInterval",
+        "$id": "66",
+        "zwave": {
+          "index": 66,
+          "size": 2
+        },
+        "attr": {
+          "min": 0,
+          "max": 32400
+        },
+        "value": 0
+      },
 			{
 				"$extends": "reportThreshold",
 				"$id": "65",
