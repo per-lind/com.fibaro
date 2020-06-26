@@ -26,5 +26,8 @@
   "2.4.5": {
     "en": "Bugfixes for various devices (Dimmer 2, Smart Implant).",
     "nl": "Optimalisatie voor verschillende apparaten (Dimmer 2, Smart Implant)."
+  },
+  "2.4.6": {
+    "en": "Fixed an issue with Walli Switch Flow cards."
   }
 }
