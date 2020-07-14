@@ -13656,7 +13656,7 @@
             "capabilities": [
               "onoff"
             ],
-            "icon": "/drivers/FGS-211/assets/icon-2.svg",
+            "icon": "/drivers/FGS-211/assets/icon.svg",
             "name": {
               "en": "Input 2 (S2)",
               "nl": "Ingang 2 (S2)"
