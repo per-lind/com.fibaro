@@ -38,7 +38,7 @@
         "capabilities": [
           "onoff"
         ],
-        "icon": "{{driverAssetsPath}}/icon-2.svg",
+        "icon": "{{driverAssetsPath}}/icon.svg",
         "name": {
           "en": "Switch 2 (S2)",
           "nl": "Switch 2 (S2)"
