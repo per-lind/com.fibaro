@@ -166,7 +166,7 @@ class FibaroSwipeDevice extends ZwaveDevice {
         size: 1,
       }, parsedValue);
 
-      changedKeys = changedKeys.filter(changedKey => ['double_up', 'double_down', 'double_left', 'double_right'].includes(changedKey));
+      changedKeys = changedKeys.filter(changedKey => !['double_up', 'double_down', 'double_left', 'double_right'].includes(changedKey));
     }
 
     return super.onSettings({oldSettings, newSettings, changedKeys});
